@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.titulo {
+    height: 60px;
+    font-family: "Viaoda Libre", serif;
+    background-color: #162028;
+    color: antiquewhite;
+    padding: 50px 150px;
+}
+ 
+.titulo nav ul {
+    margin: 0;
+    padding: 0 ;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titulo nav li {
+    margin: 0;
+    padding: 1px;
+    margin-left: 16px;
+}
+
+.titulo nav a {
+    padding: 16px;
+    display: block;
+    color: #5d6f7e;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+}
+
+.titulo nav a:hover {
+    color: white;
+}
+
+.sub {
+    text-transform: uppercase;
+    color: white;
+}
+
+.foto {
+
+    background-image: url("./assets/topo.jpg");
+    height: 1100px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 1px 0 ;
+}
+.box2{
+    font-size: 20px;
+   
+    text-align: center;
+}
+.text{
+    font-size: 30px;
+    font-family:"Montserrat", sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 100px 100px;
+
+}
+.galeria{
+    padding: 50px 500px;
+    width: 90%;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 26px;
+    list-style-type: none;
+}
+.galeria-card{
+    flex-basis: 280px;
+
+   text-align: center;
+  
+   background-size: 100%;
+   background-repeat: no-repeat;
+
+
+}
+.text-ph{
+    text-transform: uppercase;
+}
+.box6{
+    color: aliceblue;
+    background-image: url("./assets/bg_detalhe.png");
+    padding: 100px;
+    margin: 100px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    text-align: center;
+    font-size: 30px;
+}
+.main2{
+    padding: 50px;
+    font-size: 35px;
+    text-justify: inter-word;
+}
+.footer{
+    padding: 10px ;
+    margin: 100px ;
+    background-color: #0b171f;
+    text-align: center;
+    color: #6f8597;
+}
+@media (max-width: 1200px) {
+    .titulo {
+        padding: 50px 100px;
+    }
+    .text {
+        padding: 50px 50px;
+    }
+    .foto{
+
+        height: 400px;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        padding: 50px 50px;
+    }
+    .text {
+        padding: 30px 20px;
+    }
+    .galeria {
+        padding: 30px 20px;
+    }
+    .box6 {
+        padding: 30px 20px;
+    }
+    .main2 {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        padding: 20px;
+    }
+    .text {
+        font-size: 20px;
+        padding: 20px;
+    }
+    .main {
+        font-size: 25px;
+    }
+    .main2 {
+        font-size: 15px;
+        padding: 20px;
+    }
+    .box6 {
+        padding: 20px;
+        margin: 20px 0;
+    }
+    .footer {
+        margin: 20px 0;
+    }
+}
+    
